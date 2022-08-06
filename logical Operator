@@ -1,0 +1,28 @@
+int main(){
+	// Logical AND....
+	int a = 10;
+	int b = 20;
+	int c = 40;
+  
+	cout<<"output of AND operator"<<endl;
+	cout<<((a>= b) && (a != b) && (a <= c))<<endl;
+	
+	// Logical OR....
+	int x = 5;
+	int y = 8;
+	int z = 4;
+  
+	cout<<"output of OR operator"<<endl;
+	cout<<((x<=y) || (y ==z) || (z!=x))<<endl;
+	
+	// Logical NOT....
+	int d = 27;
+	int e = 0;
+	int f = 45;
+  
+  cout<<"output of not operator"<<endl;
+	cout<<(!d)<<endl;
+	cout<<(!e)<<endl;
+	cout<<(!f)<<endl;
+}
+
